@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AvNext';
+  font-weight: normal;
+  src: url('../fonts/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'AvNext';
+  font-style: 500;
+  src: url('../fonts/AvenirNextLTPro-Medium.otf');
+}
+
+@font-face {
+  font-family: 'AvNext';
+  font-weight: bold;
+  src: url('../fonts/AvenirNextLTPro-Bold.otf');
+}
+
+@font-face {
+  font-family: 'AvNext';
+  font-weight: 600;
+  src: url('../fonts/AvenirNextLTPro-Demi.otf');
+}
+
+@font-face {
+  font-family: 'AvNext';
+  font-style: italic;
+  src: url('../fonts/AvenirNextLTPro-It.otf');
+}
+
+body {
+  @apply bg-blackish font-AvNext text-whiterock
+}
